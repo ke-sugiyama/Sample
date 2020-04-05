@@ -1,4 +1,4 @@
-package javaKiso.methodKadai1;
+package javaKiso.methodKadai;
 
 public class MethodKadai1 {
 
