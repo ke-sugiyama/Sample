@@ -19,9 +19,15 @@ public class ConsoleKadai {
 		while (sc1.hasNext()) {
 			input_text1 = sc1.nextInt();
 
+			if (input_text1 == 9999) {
+				break;
+			}
+
 			System.out.println(map.get(input_text1));
 
 		}
+
+		sc1.close();
 
 	}
 
